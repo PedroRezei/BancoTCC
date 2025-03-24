@@ -1,0 +1,81 @@
+usuario
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Juliana', 'jujubastos06@gmail.com', 'amominhamae2006', 'Python, Portugol, Java');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Gabriel', 'gabsferreira@gmail.com', '31012007', 'PHP, javascript');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Ivan', 'ivan_belario@gmail.com', 'ivfutebol@', 'Typescript, java, javascript');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Heloísa', 'helonunes_19@gmail.com', 'hntvlpostag', 'mysql, mongodb, oracle');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Maria', 'maria.oliveira@gmail.com', '456123987', 'java, php');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Lucas', 'lucas.souza@gmail.com', '789653413', 'C++, Ruby');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Bruno', 'bruno.martins@gmail.com', '48237589372', 'kotlin, java, javascript');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Rodrigo', 'rodlima.01@gmail.com', '5738736347185', 'React, java');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Thiago', 'titigas_4910@gmail.com', 'titigasloverock', 'mysql, oracle');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Camila', 'camis_viera@gmail.com', 'araciosvaldokellycamila', 'html, css, java');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Jonas', 'jonas103452@gmail.com', '14356335631', 'python, php');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Carla', 'carlinhabale@gmail.com', 'dancaevidas2', 'javascript, java, react, css');
+
+criador
+INSERT INTO `tcc`.`criador` (`nome`, `email`, `senha`, `cpf`, `rg`, `formacao`) VALUES ('Adecio', 'adeciobanco@gmail.com', 'adeciofazsql', '123.456.789-01', '12.345.678-9', 'ciencia de dados');
+INSERT INTO `tcc`.`criador` (`nome`, `email`, `senha`, `cpf`, `rg`, `formacao`) VALUES ('Rodolfo', 'rodolfo.bispo@gmail.com', 'theresameuamor', '901.234.567-89', '90.123.456-7', 'engenharia de software');
+INSERT INTO `tcc`.`criador` (`nome`, `email`, `senha`, `cpf`, `rg`, `formacao`) VALUES ('Sandra', 'sandra_espanha@gmail.com', 'holachicosquetal', '123.345.678-90', '12.345.678-9	', 'desenvolvimento web');
+INSERT INTO `tcc`.`criador` (`nome`, `email`, `senha`, `cpf`, `rg`, `formacao`) VALUES ('Cassio', 'cassioabel', 'csml10223005', '234.456.789-01', '23.456.789-0', 'ciencia da computacao');
+INSERT INTO `tcc`.`criador` (`nome`, `email`, `senha`, `cpf`, `rg`, `formacao`) VALUES ('Elaine', 'elaine1978@gmail.com', 'elaine2874617491', '345.678.901-23	', '34.567.890-1	', 'desenvolvimento mobile');
+INSERT INTO `tcc`.`criador` (`nome`, `email`, `senha`, `cpf`, `rg`, `formacao`) VALUES ('Joaquim', 'joaquim.rocha@gmail.com', 'vitalicioseilauimasenha', '789.012.345-67		', '78.901.234-5', 'analise e desenvolvimento de sistemas ');
+INSERT INTO `tcc`.`criador` (`nome`, `email`, `senha`, `cpf`, `rg`, `formacao`) VALUES ('Francisco', 'francisco.oliveira@gmail.com	', 'umasenhamuitolouca ', '456.789.012-34', '45.678.901-2', 'administracao de banco de dados');
+INSERT INTO `tcc`.`criador` (`nome`, `email`, `senha`, `cpf`, `rg`, `formacao`) VALUES ('Giovana', 'Giovanamaria_flor@gmail.com', 'giovanamariaflorjj26', '678.901.234-56	', '67.890.123-4', 'arquitetura de software');
+INSERT INTO `tcc`.`criador` (`nome`, `email`, `senha`, `cpf`, `rg`, `formacao`) VALUES ('Regina', 'regina.santos@gmail.com', 'todasassenhasjesusamado', '567.789.012-34', '56.789.012-3', 'engenharia da computacao');
+INSERT INTO `tcc`.`criador` (`nome`, `email`, `senha`, `cpf`, `rg`, `formacao`) VALUES ('Paulo', 'paulogustavo@gmail.com', '4567324632', '890.123.456-78', '89.012.345-6', 'ciencia de dados');
+
+video
+INSERT INTO `tcc`.`video` (`id_criador`, `titulo`, `descricao`, `url`, `categoria`, `data_publicacao`, `palavra_chave`) VALUES ('1', 'APRENDENDO A FAZER BODELOS CONCEITUAIS', 'Nesse video, ensino como funciona um modelo conceitual e como criar ele', 'https://www.youtube.com/watch?v=BzQ7kkTZVIo', 'banco de dados', '2025/03/10 09:12:42', 'conceitual');
+INSERT INTO `tcc`.`video` (`id_criador`, `titulo`, `descricao`, `url`, `categoria`, `data_publicacao`, `palavra_chave`) VALUES ('2', 'PYTHON LISTAS. RESOLVENDO EXERCICIOS', 'Nesse video, estou resolvendo os exercicios que passei no final do video de semana passada, onde vimos um pouco sobre listas no python', 'https://www.youtube.com/watch?v=ZFAOxCyC4tU&list=PLNyCgqr3-6Amx5T15bW-7k70wtzk9ZK16&index=3', 'python', '2025/03/10 09:42:18', 'python');
+INSERT INTO `tcc`.`video` (`id_criador`, `titulo`, `descricao`, `url`, `categoria`, `data_publicacao`, `palavra_chave`) VALUES ('3', 'HTML E CSS, APRENDA DO INICIO.', 'Nesse video, voce aprendera a comecar um projeto html e css.', 'https://www.youtube.com/watch?v=n_Etdr7Dbjs', 'web', '2025/03/10 10:55:21', 'html');
+INSERT INTO `tcc`.`video` (`id_criador`, `titulo`, `descricao`, `url`, `categoria`, `data_publicacao`, `palavra_chave`) VALUES ('4', 'APRENDA O ESSENCIAL DE SEGURANCA DA INFORMACAO', 'Nesse video, aprenderemos quais sao os conceitos, fundamento e mecanismos de seguranca da informacao', 'https://www.youtube.com/watch?v=Gfh2bxe3hGU&pp=ygUac2VndXJhbsOnYSBkYSBpbmZvcm1hw6fDo28%3D', 'ciencia da computacao', '2025/03/10 11:06:41', 'seguranca');
+
+avaliacao 
+INSERT INTO `tcc`.`avaliacao` (`nota`, `comentario`) VALUES ('5', 'obrigado, eu estava com duvidas sobre cardinalidade e voce conseguiu tirar elas');
+INSERT INTO `tcc`.`avaliacao` (`nota`, `comentario`) VALUES ('5', 'O segundo exercicio eu tive muita duvida na hora de fazer, mas agora conseguir entender, vlw');
+INSERT INTO `tcc`.`avaliacao` (`nota`, `comentario`) VALUES ('5', 'puxa, na aula achei que era muito dificil, mas depois que vi seu video percebi o quao facil e, nota 10.');
+INSERT INTO `tcc`.`avaliacao` (`nota`) VALUES ('4');
+INSERT INTO `tcc`.`avaliacao` (`nota`) VALUES ('5');
+
+usuario avaliação
+INSERT INTO `tcc`.`usuario_avaliacao` (`id_usuario`, `id_video`, `id_avaliacao`, `data_inicio`, `tempo_assistido`) VALUES ('1', '1', '1', '2025-03-11 13:30:23', '00:21:47');
+INSERT INTO `tcc`.`usuario_avaliacao` (`id_usuario`, `id_video`, `id_avaliacao`, `data_inicio`, `tempo_assistido`) VALUES ('2', '3', '2', '2025-03-11 14:07:12', '00:17:57');
+INSERT INTO `tcc`.`usuario_avaliacao` (`id_usuario`, `id_video`, `id_avaliacao`, `data_inicio`, `tempo_assistido`) VALUES ('3', '3', '3', '2025-03-11 14:20:12', '00:25:16');
+INSERT INTO `tcc`.`usuario_avaliacao` (`id_usuario`, `id_video`, `id_avaliacao`, `data_inicio`, `tempo_assistido`) VALUES ('4', '4', '4', '2025-03-11 - 15:02:52', '00:19:21');
+INSERT INTO `tcc`.`usuario_avaliacao` (`id_usuario`, `id_video`, `id_avaliacao`, `data_inicio`, `tempo_assistido`) VALUES ('5', '4', '5', '2025-02-11 15:47:14', '00:20:42');
+
+playlist video
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES (5, 1, '2025-03-11', 1);
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES (5, 2, '2025-03-11', 2);
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES (5, 3, '2025-03-12', 3);
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES (6, 1, '2025-03-12', 1);
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES (6, 2, '2025-03-13', 2);
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES (6, 4, '2025-03-13', 3);
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES (7, 1, '2025-03-14', 1);
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES (7, 3, '2025-03-14', 2);
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES (8, 4, '2025-03-15', 1);
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES (8, 3, '2025-03-15', 2);
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES (8, 1, '2025-03-15', 3);
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES (9, 2, '2025-03-16', 1);
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES (9, 1, '2025-03-16', 2);
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES (9, 3, '2025-03-16', 3);
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES (10, 1, '2025-03-17', 1);
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES (10, 2, '2025-03-17', 2);
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES (10, 3, '2025-03-17', 3);
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES (10, 4, '2025-03-17', 4);
+
+
+playlist
+INSERT INTO `tcc`.`playlist` (`id_usuario`, `id_criador`, `nome`, `visibilidade`) VALUES ('1', NULL, 'playlist da juliana', 'privada');
+INSERT INTO `tcc`.`playlist` (`id_criador`, `nome`, `visibilidade`) VALUES ('2', 'aulas de python', 'publica');
+INSERT INTO `tcc`.`playlist` (`id_usuario`, `nome`, `visibilidade`) VALUES ('3', 'playlist do Ivan', 'privada');
+INSERT INTO `tcc`.`playlist` (`id_usuario`, `id_criador`, `nome`, `visibilidade`) VALUES ('4', NULL, 'playlist da Heloisa', 'privada');
+INSERT INTO `tcc`.`playlist` (`id_criador`, `nome`, `visibilidade`) VALUES ('5', 'aulas de react ', 'publica');
+INSERT INTO `tcc`.`playlist` (`id_criador`, `nome`, `visibilidade`) VALUES ('1', 'aula de banco de dados', 'publica');
+
+assinatura
+INSERT INTO `tcc`.`assinatura` (`id_usuario`, `plano`, `data_inicio`, `data_fim`, `preço`) VALUES ('1', 'premium', '2025-03-11 11:30:00', '2025-04-11 12:00:00', '8.99');
+INSERT INTO `tcc`.`assinatura` (`id_usuario`, `plano`, `data_inicio`, `data_fim`, `preço`) VALUES ('2', 'premium', '2025-03-20 13:00:00', '2025-04-20 13:30:00', '8.99');
+INSERT INTO `tcc`.`assinatura` (`id_usuario`, `plano`, `data_inicio`, `data_fim`, `preço`) VALUES ('4', 'premium', '2025-04-15 07:50:00', '2025-05-15 08:00:00', '8.99');
+INSERT INTO `tcc`.`assinatura` (`id_usuario`, `plano`, `data_inicio`, `data_fim`, `preço`) VALUES ('9', 'premium', '2025-05-19 20:00:00', '2025-06-19 20:00:00', '8.99');
+INSERT INTO `tcc`.`assinatura` (`id_usuario`, `plano`, `data_inicio`, `data_fim`, `preço`) VALUES ('12', 'premium', '2025-06-14 17:00:00', '2025-07-14 17:00:00', '8.99');
