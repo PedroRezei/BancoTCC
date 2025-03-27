@@ -32,6 +32,11 @@ INSERT INTO `tcc`.`criador` (`nome`, `email`, `senha`, `cpf`, `rg`, `formacao`) 
 INSERT INTO `tcc`.`criador` (`nome`, `email`, `senha`, `cpf`, `rg`, `formacao`) VALUES ('Giovana', 'Giovanamaria_flor@gmail.com', 'giovanamariaflorjj26', '678.901.234-56	', '67.890.123-4', 'arquitetura de software');
 INSERT INTO `tcc`.`criador` (`nome`, `email`, `senha`, `cpf`, `rg`, `formacao`) VALUES ('Regina', 'regina.santos@gmail.com', 'todasassenhasjesusamado', '567.789.012-34', '56.789.012-3', 'engenharia da computacao');
 INSERT INTO `tcc`.`criador` (`nome`, `email`, `senha`, `cpf`, `rg`, `formacao`) VALUES ('Paulo', 'paulogustavo@gmail.com', '4567324632', '890.123.456-78', '89.012.345-6', 'ciencia de dados');
+INSERT INTO `tcc`.`criador` (`nome`, `email`, `senha`, `cpf`, `rg`, `formacao`) VALUES ('Elisangela', 'profelisangela@gmail.com', 'professoraelisangeladeti', '716.206.990-87', '29.990.339-4', 'analise e desenvolvimento de sistemas');
+INSERT INTO `tcc`.`criador` (`nome`, `email`, `senha`, `cpf`, `rg`, `formacao`) VALUES ('Joel', 'joeldacomputacao@gmail.com', 'joelformadoemcomputacao', '434.289.500-54', '38.812.527-5', 'ciencia da computacao');
+INSERT INTO `tcc`.`criador` (`nome`, `email`, `senha`, `cpf`, `rg`, `formacao`) VALUES ('Vladimir', 'vladimiroensino@gmail.com', 'euensinomuitobem', '575.418.020-93', '42.399.415-3', 'desenvolvimento web');
+INSERT INTO `tcc`.`criador` (`nome`, `email`, `senha`, `cpf`, `rg`, `formacao`) VALUES ('Oscar', 'oscar.ramalho@gmail.com', '7573819475981', '729.997.470-39', '11.956.853-6', 'engenharia de software');
+INSERT INTO `tcc`.`criador` (`nome`, `email`, `senha`, `cpf`, `rg`, `formacao`) VALUES ('Rosimar', 'rosimar.gouveia@gmail.com', 'tenhomuitasenhas', '861.653.230-73', '23.453.033-9', 'administracao de banco de dados');
 
 video
 INSERT INTO `tcc`.`video` (`id_criador`, `titulo`, `descricao`, `url`, `categoria`, `data_publicacao`, `palavra_chave`) VALUES ('1', 'APRENDENDO A FAZER BODELOS CONCEITUAIS', 'Nesse video, ensino como funciona um modelo conceitual e como criar ele', 'https://www.youtube.com/watch?v=BzQ7kkTZVIo', 'banco de dados', '2025/03/10 09:12:42', 'conceitual');
