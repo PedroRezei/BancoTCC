@@ -18,6 +18,16 @@ INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Re
 INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Donatella', 'donatellaversace@gmai.com', 'elaericademais426', 'html, css, react');
 INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Evandro', 'evandrodj@gmail.com', '284756352musica', 'C++, php');
 INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Fernando', 'fernand0_4168@gmail.com', 'f3rn4nd0arribameo', 'groovy, kotlin, java');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Rafael', 'rafinha5642@gmail.com', 'alunodafiec37485', 'react, css');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Thalita', 'thalita_35@gmail.com', 'friendlycompetition', 'java, javascript');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Natan', 'natan7831@gmail.com', 'ticriticam59482', 'typescript, javascript');
+UPDATE `tcc`.`usuario` SET `interesses` = 'typescript, java, javascript' WHERE (`id_usuario` = '3');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Gustavo', 'gustavokido@gmail.com', 'muitacriatividadeveyr', 'mysql, oracle');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Paola', 'paola.tidinha@gmail.com', 'batatinhabemquentinha', 'kotlin, javascript');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Hemilio', 'hemili2047@gmail.com', 'espaguetegostosinho', 'python, portugol');
+UPDATE `tcc`.`usuario` SET `interesses` = 'react, java' WHERE (`id_usuario` = '8');
+UPDATE `tcc`.`usuario` SET `interesses` = 'php, javascript' WHERE (`id_usuario` = '2');
+
 
 
 
