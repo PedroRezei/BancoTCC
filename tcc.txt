@@ -121,6 +121,15 @@ INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `p
 INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES (10, 2, '2025-03-17', 2);
 INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES (10, 3, '2025-03-17', 3);
 INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES (10, 4, '2025-03-17', 4);
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES ('11', '1', '2025-03-17', '1');
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES ('11', '7', '2025-03-17', '2');
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES ('11', '10', '2025-03-17', '3');
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES ('11', '14', '2025-03-17', '4');
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES ('11', '15', '2025-03-18', '5');
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES ('12', '12', '2025-03-18', '1');
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES ('12', '5', '2025-03-18', '2');
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES ('13', '6', '2025-03-18', '1');
+INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES ('13', '9', '2025-03-18', '2');
 
 
 playlist
