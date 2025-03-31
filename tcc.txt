@@ -103,3 +103,14 @@ INSERT INTO `tcc`.`assinatura` (`id_usuario`, `plano`, `data_inicio`, `data_fim`
 INSERT INTO `tcc`.`assinatura` (`id_usuario`, `plano`, `data_inicio`, `data_fim`, `preço`) VALUES ('4', 'premium', '2025-04-15 07:50:00', '2025-05-15 08:00:00', '8.99');
 INSERT INTO `tcc`.`assinatura` (`id_usuario`, `plano`, `data_inicio`, `data_fim`, `preço`) VALUES ('9', 'premium', '2025-05-19 20:00:00', '2025-06-19 20:00:00', '8.99');
 INSERT INTO `tcc`.`assinatura` (`id_usuario`, `plano`, `data_inicio`, `data_fim`, `preço`) VALUES ('12', 'premium', '2025-06-14 17:00:00', '2025-07-14 17:00:00', '8.99');
+INSERT INTO `tcc`.`assinatura` (`id_usuario`, `plano`, `data_inicio`, `data_fim`, `preço`) VALUES ('13', 'premium', '2025-03-14 09:25:00', '2025-04-14 09:25:00', '8.99');
+UPDATE `tcc`.`assinatura` SET `data_inicio` = '2025-03-11 13:00:00', `data_fim` = '2025-04-11 13:00:00' WHERE (`id_assinatura` = '2');
+UPDATE `tcc`.`assinatura` SET `data_inicio` = '2025-03-12 07:50:00', `data_fim` = '2025-04-12 07:50:00' WHERE (`id_assinatura` = '3');
+UPDATE `tcc`.`assinatura` SET `data_inicio` = '2025-03-13 20:00:00', `data_fim` = '2025-04-13 20:00:00' WHERE (`id_assinatura` = '4');
+UPDATE `tcc`.`assinatura` SET `data_inicio` = '2025-03-13 17:00:00', `data_fim` = '2025-04-13 17:00:00' WHERE (`id_assinatura` = '5');
+UPDATE `tcc`.`assinatura` SET `data_fim` = '2025-04-11 11:30:00' WHERE (`id_assinatura` = '1');
+INSERT INTO `tcc`.`assinatura` (`id_usuario`, `plano`, `data_inicio`, `data_fim`, `preço`) VALUES ('15', 'premium', '2025-03-14 12:00:00', '2025-04-14 12:00:00', '8.99');
+INSERT INTO `tcc`.`assinatura` (`id_usuario`, `plano`, `data_inicio`, `data_fim`, `preço`) VALUES ('17', 'premium', '2025-03-14 18:30:00', '2025-04-14 18:30:00', '8.99');
+INSERT INTO `tcc`.`assinatura` (`id_usuario`, `plano`, `data_inicio`, `data_fim`, `preço`) VALUES ('20', 'premium', '2025-03-16 15:45:00', '2025-04-16 15:45:00', '8.99');
+INSERT INTO `tcc`.`assinatura` (`id_usuario`, `plano`, `data_inicio`, `data_fim`, `preço`) VALUES ('3', 'premium', '2025-03-16 16:00:00', '2025-04-16 16:00:00', '8.99');
+INSERT INTO `tcc`.`assinatura` (`id_usuario`, `plano`, `data_inicio`, `data_fim`, `preço`) VALUES ('7', 'premium', '2025-03-17 14:15:00', '2025-04-17 14:15:00', '8.99');
