@@ -84,6 +84,14 @@ INSERT INTO `tcc`.`avaliacao` (`nota`) VALUES ('4');
 INSERT INTO `tcc`.`avaliacao` (`nota`, `comentario`) VALUES ('5', 'muito bom o video.');
 INSERT INTO `tcc`.`avaliacao` (`nota`, `comentario`) VALUES ('5', 'nossa, mongodb é mais facil que eu imaginei, tu explica muito bem.');
 UPDATE `tcc`.`avaliacao` SET `comentario` = 'você explica bem demais, professor top, 5 estrelas!' WHERE (`id_avaliacao` = '5');
+INSERT INTO `tcc`.`avaliacao` (`id_avaliacao`, `nota`) VALUES ('14', '5');
+INSERT INTO `tcc`.`avaliacao` (`id_avaliacao`, `nota`, `comentario`) VALUES ('15', '4', 'Parabéns, explica muito bem');
+INSERT INTO `tcc`.`avaliacao` (`id_avaliacao`, `nota`, `comentario`) VALUES (NULL, '5', 'nossa, explição top, 5 estrelas.');
+INSERT INTO `tcc`.`avaliacao` (`nota`, `comentario`) VALUES ('5', 'meu professor tinha passado uns exercicios q eu não tinha entendido, mas dps de ver seu video ficou facil fazer, vlw.');
+INSERT INTO `tcc`.`avaliacao` (`nota`, `comentario`) VALUES ('4', 'quando a minha professora passou listas eu tinha achado muito dificil, mas agora vi q é bem simples.');
+INSERT INTO `tcc`.`avaliacao` (`nota`) VALUES ('4');
+INSERT INTO `tcc`.`avaliacao` (`nota`, `comentario`) VALUES ('5', 'só consigo aprender com vídeos, obrigado.');
+INSERT INTO `tcc`.`avaliacao` (`nota`, `comentario`) VALUES ('5', 'queria que meu professor explicasse desse jeito, deixou tudo tão claro');
 
 usuario avaliação
 INSERT INTO `tcc`.`usuario_avaliacao` (`id_usuario`, `id_video`, `id_avaliacao`, `data_inicio`, `tempo_assistido`) VALUES ('1', '1', '1', '2025-03-11 13:30:23', '00:21:47');
