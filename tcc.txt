@@ -92,6 +92,12 @@ INSERT INTO `tcc`.`avaliacao` (`nota`, `comentario`) VALUES ('4', 'quando a minh
 INSERT INTO `tcc`.`avaliacao` (`nota`) VALUES ('4');
 INSERT INTO `tcc`.`avaliacao` (`nota`, `comentario`) VALUES ('5', 'só consigo aprender com vídeos, obrigado.');
 INSERT INTO `tcc`.`avaliacao` (`nota`, `comentario`) VALUES ('5', 'queria que meu professor explicasse desse jeito, deixou tudo tão claro');
+UPDATE `tcc`.`avaliacao` SET `id_avaliacao` = '16' WHERE (`id_avaliacao` = '21');
+UPDATE `tcc`.`avaliacao` SET `id_avaliacao` = '17' WHERE (`id_avaliacao` = '22');
+UPDATE `tcc`.`avaliacao` SET `id_avaliacao` = '18' WHERE (`id_avaliacao` = '23');
+UPDATE `tcc`.`avaliacao` SET `id_avaliacao` = '19' WHERE (`id_avaliacao` = '24');
+UPDATE `tcc`.`avaliacao` SET `id_avaliacao` = '20' WHERE (`id_avaliacao` = '25');
+UPDATE `tcc`.`avaliacao` SET `id_avaliacao` = '21' WHERE (`id_avaliacao` = '26');
 
 usuario avaliação
 INSERT INTO `tcc`.`usuario_avaliacao` (`id_usuario`, `id_video`, `id_avaliacao`, `data_inicio`, `tempo_assistido`) VALUES ('1', '1', '1', '2025-03-11 13:30:23', '00:21:47');
