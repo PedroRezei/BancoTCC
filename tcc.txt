@@ -130,6 +130,9 @@ INSERT INTO `tcc`.`playlist` (`id_usuario`, `nome`, `visibilidade`) VALUES ('3',
 INSERT INTO `tcc`.`playlist` (`id_usuario`, `id_criador`, `nome`, `visibilidade`) VALUES ('4', NULL, 'playlist da Heloisa', 'privada');
 INSERT INTO `tcc`.`playlist` (`id_criador`, `nome`, `visibilidade`) VALUES ('5', 'aulas de react ', 'publica');
 INSERT INTO `tcc`.`playlist` (`id_criador`, `nome`, `visibilidade`) VALUES ('1', 'aula de banco de dados', 'publica');
+INSERT INTO `tcc`.`playlist` (`id_usuario`, `nome`, `visibilidade`) VALUES ('13', 'bancos da ba', 'privada');
+INSERT INTO `tcc`.`playlist` (`id_usuario`, `id_criador`, `nome`, `visibilidade`) VALUES ('7', NULL, 'minha playlist', 'publica');
+INSERT INTO `tcc`.`playlist` (`id_usuario`, `nome`, `visibilidade`) VALUES ('17', 'programação', 'privada');
 
 assinatura
 INSERT INTO `tcc`.`assinatura` (`id_usuario`, `plano`, `data_inicio`, `data_fim`, `preço`) VALUES ('1', 'premium', '2025-03-11 11:30:00', '2025-04-11 12:00:00', '8.99');
