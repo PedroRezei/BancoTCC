@@ -99,6 +99,7 @@ UPDATE `tcc`.`avaliacao` SET `id_avaliacao` = '19' WHERE (`id_avaliacao` = '24')
 UPDATE `tcc`.`avaliacao` SET `id_avaliacao` = '20' WHERE (`id_avaliacao` = '25');
 UPDATE `tcc`.`avaliacao` SET `id_avaliacao` = '21' WHERE (`id_avaliacao` = '26');
 INSERT INTO `tcc`.`avaliacao` (`nota`) VALUES ('4');
+UPDATE `tcc`.`avaliacao` SET `id_avaliacao` = '22' WHERE (`id_avaliacao` = '27');
 
 usuario avaliação
 INSERT INTO `tcc`.`usuario_avaliacao` (`id_usuario`, `id_video`, `id_avaliacao`, `data_inicio`, `tempo_assistido`) VALUES ('1', '1', '1', '2025-03-11 13:30:23', '00:21:47');
