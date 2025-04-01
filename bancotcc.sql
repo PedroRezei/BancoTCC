@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 8.0.41, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.38, for Win64 (x86_64)
 --
 -- Host: localhost    Database: tcc
 -- ------------------------------------------------------
--- Server version	8.0.41
+-- Server version	8.0.36
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -59,7 +59,7 @@ CREATE TABLE `avaliacao` (
   `comentario` text,
   PRIMARY KEY (`id_avaliacao`),
   CONSTRAINT `avaliacao_chk_1` CHECK ((`nota` between 1 and 5))
-) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -68,7 +68,7 @@ CREATE TABLE `avaliacao` (
 
 LOCK TABLES `avaliacao` WRITE;
 /*!40000 ALTER TABLE `avaliacao` DISABLE KEYS */;
-INSERT INTO `avaliacao` VALUES (1,5,'obrigado, eu estava com duvidas sobre cardinalidade e voce conseguiu tirar elas'),(2,5,'O segundo exercicio eu tive muita duvida na hora de fazer, mas agora conseguir entender, vlw'),(3,5,'puxa, na aula achei que era muito dificil, mas depois que vi seu video percebi o quao facil e, nota 10.'),(4,4,NULL),(5,5,'você explica bem demais, professor top, 5 estrelas!'),(6,5,'pelo seu video consegui entender, muito obrigado.'),(7,4,'obrigado, tenho prova amanhã e tava sem saber da matéria.'),(8,3,NULL),(9,5,'Você explica muito bem professor.'),(10,5,'Obrigado pelo video, meu professor não passou oracle e eu queria aprender mais sobre.'),(11,4,NULL),(12,5,'muito bom o video.'),(13,5,'nossa, mongodb é mais facil que eu imaginei, tu explica muito bem.');
+INSERT INTO `avaliacao` VALUES (1,5,'obrigado, eu estava com duvidas sobre cardinalidade e voce conseguiu tirar elas'),(2,5,'O segundo exercicio eu tive muita duvida na hora de fazer, mas agora conseguir entender, vlw'),(3,5,'puxa, na aula achei que era muito dificil, mas depois que vi seu video percebi o quao facil e, nota 10.'),(4,4,NULL),(5,5,'você explica bem demais, professor top, 5 estrelas!'),(6,5,'pelo seu video consegui entender, muito obrigado.'),(7,4,'obrigado, tenho prova amanhã e tava sem saber da matéria.'),(8,3,NULL),(9,5,'Você explica muito bem professor.'),(10,5,'Obrigado pelo video, meu professor não passou oracle e eu queria aprender mais sobre.'),(11,4,NULL),(12,5,'muito bom o video.'),(13,5,'nossa, mongodb é mais facil que eu imaginei, tu explica muito bem.'),(14,5,NULL),(15,4,'Parabéns, explica muito bem'),(16,5,'nossa, explição top, 5 estrelas.'),(17,5,'meu professor tinha passado uns exercicios q eu não tinha entendido, mas dps de ver seu video ficou facil fazer, vlw.'),(18,4,'quando a minha professora passou listas eu tinha achado muito dificil, mas agora vi q é bem simples.'),(19,4,NULL),(20,5,'só consigo aprender com vídeos, obrigado.'),(21,5,'queria que meu professor explicasse desse jeito, deixou tudo tão claro'),(22,4,NULL),(23,5,'Professora top, explica demais');
 /*!40000 ALTER TABLE `avaliacao` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -119,7 +119,7 @@ CREATE TABLE `playlist` (
   PRIMARY KEY (`id_playlist`),
   KEY `playlist_ibfk_1_idx` (`id_usuario`),
   KEY `playlist_ibfk_2_idx` (`id_criador`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -128,7 +128,7 @@ CREATE TABLE `playlist` (
 
 LOCK TABLES `playlist` WRITE;
 /*!40000 ALTER TABLE `playlist` DISABLE KEYS */;
-INSERT INTO `playlist` VALUES (5,1,NULL,'playlist da juliana','privada'),(6,NULL,2,'aulas de python','publica'),(7,3,NULL,'playlist do Ivan','privada'),(8,4,NULL,'playlist da Heloisa','privada'),(9,NULL,5,'aulas de react ','publica'),(10,NULL,1,'aula de banco de dados','publica');
+INSERT INTO `playlist` VALUES (5,1,NULL,'playlist da juliana','privada'),(6,NULL,2,'aulas de python','publica'),(7,3,NULL,'playlist do Ivan','privada'),(8,4,NULL,'playlist da Heloisa','privada'),(9,NULL,5,'aulas de react ','publica'),(10,NULL,1,'aula de banco de dados','publica'),(11,13,NULL,'bancos da ba','privada'),(12,7,NULL,'minha playlist','publica'),(13,17,NULL,'programação','privada');
 /*!40000 ALTER TABLE `playlist` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -150,7 +150,7 @@ CREATE TABLE `playlist_video` (
   KEY `fk_video_idx` (`id_video`),
   CONSTRAINT `fk_playlist` FOREIGN KEY (`id_playlist`) REFERENCES `playlist` (`id_playlist`),
   CONSTRAINT `fk_video` FOREIGN KEY (`id_video`) REFERENCES `video` (`id_video`)
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -159,7 +159,7 @@ CREATE TABLE `playlist_video` (
 
 LOCK TABLES `playlist_video` WRITE;
 /*!40000 ALTER TABLE `playlist_video` DISABLE KEYS */;
-INSERT INTO `playlist_video` VALUES (1,5,1,'2025-03-11',1),(2,5,2,'2025-03-11',2),(3,5,3,'2025-03-12',3),(4,6,1,'2025-03-12',1),(5,6,2,'2025-03-13',2),(6,6,4,'2025-03-13',3),(7,7,1,'2025-03-14',1),(8,7,3,'2025-03-14',2),(9,8,4,'2025-03-15',1),(10,8,3,'2025-03-15',2),(11,8,1,'2025-03-15',3),(12,9,2,'2025-03-16',1),(13,9,1,'2025-03-16',2),(14,9,3,'2025-03-16',3),(15,10,1,'2025-03-17',1),(16,10,2,'2025-03-17',2),(17,10,3,'2025-03-17',3),(18,10,4,'2025-03-17',4);
+INSERT INTO `playlist_video` VALUES (1,5,1,'2025-03-11',1),(2,5,2,'2025-03-11',2),(3,5,3,'2025-03-12',3),(4,6,1,'2025-03-12',1),(5,6,2,'2025-03-13',2),(6,6,4,'2025-03-13',3),(7,7,1,'2025-03-14',1),(8,7,3,'2025-03-14',2),(9,8,4,'2025-03-15',1),(10,8,3,'2025-03-15',2),(11,8,1,'2025-03-15',3),(12,9,2,'2025-03-16',1),(13,9,1,'2025-03-16',2),(14,9,3,'2025-03-16',3),(15,10,1,'2025-03-17',1),(16,10,2,'2025-03-17',2),(17,10,3,'2025-03-17',3),(18,10,4,'2025-03-17',4),(19,11,1,'2025-03-17',1),(20,11,7,'2025-03-17',2),(21,11,10,'2025-03-17',3),(22,11,14,'2025-03-17',4),(23,11,15,'2025-03-18',5),(24,12,12,'2025-03-18',1),(25,12,5,'2025-03-18',2),(26,13,6,'2025-03-18',1),(27,13,9,'2025-03-18',2);
 /*!40000 ALTER TABLE `playlist_video` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -212,7 +212,7 @@ CREATE TABLE `usuario_avaliacao` (
   CONSTRAINT `fk_avaliacao_avaliacao` FOREIGN KEY (`id_avaliacao`) REFERENCES `avaliacao` (`id_avaliacao`),
   CONSTRAINT `fk_usuario_id_usuario` FOREIGN KEY (`id_usuario`) REFERENCES `usuario` (`id_usuario`),
   CONSTRAINT `fk_video_id_video` FOREIGN KEY (`id_video`) REFERENCES `video` (`id_video`)
-) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -221,7 +221,7 @@ CREATE TABLE `usuario_avaliacao` (
 
 LOCK TABLES `usuario_avaliacao` WRITE;
 /*!40000 ALTER TABLE `usuario_avaliacao` DISABLE KEYS */;
-INSERT INTO `usuario_avaliacao` VALUES (1,1,1,1,'2025-03-11 13:30:23','00:21:47'),(2,2,3,2,'2025-03-11 14:07:12','00:17:57'),(3,3,3,3,'2025-03-11 14:20:12','00:17:57'),(4,4,4,4,'2025-03-11 15:02:52','00:19:21'),(5,5,4,5,'2025-03-11 15:47:14','00:19:21'),(6,6,5,6,'2025-03-11 16:12:46','00:22:21'),(7,9,6,7,'2025-03-11 16:30:00','00:28:15'),(8,14,7,8,'2025-03-11 17:05:42','00:15:59'),(9,17,7,9,'2025-03-11 17:40:10','00:15:59'),(10,13,10,10,'2025-03-11 18:12:25','00:22:30'),(11,22,10,11,'2025-03-11 18:45:00','00:22:30'),(12,21,8,12,'2025-03-12 08:30:00','00:17:51'),(13,23,7,13,'2025-03-12 09:45:00','00:15:59');
+INSERT INTO `usuario_avaliacao` VALUES (1,1,1,1,'2025-03-11 13:30:23','00:21:47'),(2,2,3,2,'2025-03-11 14:07:12','00:17:57'),(3,3,3,3,'2025-03-11 14:20:12','00:17:57'),(4,4,4,4,'2025-03-11 15:02:52','00:19:21'),(5,5,4,5,'2025-03-11 15:47:14','00:19:21'),(6,6,5,6,'2025-03-11 16:12:46','00:22:21'),(7,9,6,7,'2025-03-11 16:30:00','00:28:15'),(8,14,7,8,'2025-03-11 17:05:42','00:15:59'),(9,17,7,9,'2025-03-11 17:40:10','00:15:59'),(10,13,10,10,'2025-03-11 18:12:25','00:22:30'),(11,22,10,11,'2025-03-11 18:45:00','00:22:30'),(12,21,8,12,'2025-03-12 08:30:00','00:17:51'),(13,23,7,13,'2025-03-12 09:45:00','00:15:59'),(14,4,2,14,'2025-03-12 10:02:24','00:26:41'),(15,18,12,15,'2025-03-12 10:15:21','00:24:13'),(16,11,13,16,'2025-03-12 10:17:44','00:19:59'),(17,17,9,17,'2025-03-12 10:30:31','00:16:43'),(18,15,2,18,'2025-03-12 11:05:02','00:26:41'),(19,13,1,19,'2025-03-12 11:07:52','00:21:47'),(20,24,11,20,'2025-03-12 11:21:30','00:15:42'),(21,20,14,21,'2025-03-12 11:30:31','00:23:52'),(22,13,14,22,'2025-03-12 11:32:51','00:23:52'),(23,4,15,23,'2025-03-12 12:16:25','00:28:31');
 /*!40000 ALTER TABLE `usuario_avaliacao` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -266,4 +266,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-03-31 15:21:40
+-- Dump completed on 2025-03-31 21:25:32
