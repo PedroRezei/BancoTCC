@@ -118,6 +118,16 @@ INSERT INTO `tcc`.`usuario_avaliacao` (`id_usuario`, `id_video`, `id_avaliacao`,
 INSERT INTO `tcc`.`usuario_avaliacao` (`id_usuario`, `id_video`, `id_avaliacao`, `data_inicio`, `tempo_assistido`) VALUES ('23', '7', '13', '2025-03-12 09:45:00', '00:15:59');
 UPDATE `tcc`.`usuario_avaliacao` SET `data_inicio` = '2025-03-11 15:47:14', `tempo_assistido` = '00:19:21' WHERE (`sóprabotadado` = '5');
 UPDATE `tcc`.`usuario_avaliacao` SET `tempo_assistido` = '00:17:57' WHERE (`sóprabotadado` = '3');
+INSERT INTO `tcc`.`usuario_avaliacao` (`id_usuario`, `id_video`, `id_avaliacao`, `data_inicio`, `tempo_assistido`) VALUES ('4', '2', '14', '2025-03-12 10:02:24', '00:26:41');
+INSERT INTO `tcc`.`usuario_avaliacao` (`id_usuario`, `id_video`, `id_avaliacao`, `data_inicio`, `tempo_assistido`) VALUES ('18', '12', '15', '2025-03-12 10:15:21', '00:24:13');
+INSERT INTO `tcc`.`usuario_avaliacao` (`id_usuario`, `id_video`, `id_avaliacao`, `data_inicio`, `tempo_assistido`) VALUES ('11', '13', '16', '2025-03-12 10:17:44', '00:19:59');
+INSERT INTO `tcc`.`usuario_avaliacao` (`id_usuario`, `id_video`, `id_avaliacao`, `data_inicio`, `tempo_assistido`) VALUES ('17', '9', '17', '2025-03-12 10:30:31', '00:16:43');
+INSERT INTO `tcc`.`usuario_avaliacao` (`id_usuario`, `id_video`, `id_avaliacao`, `data_inicio`, `tempo_assistido`) VALUES ('15', '2', '18', '2025-03-12 11:05:02', '00:26:41');
+INSERT INTO `tcc`.`usuario_avaliacao` (`id_usuario`, `id_video`, `id_avaliacao`, `data_inicio`, `tempo_assistido`) VALUES ('13', '1', '19', '2025-03-12 11:07:52', '00:21:47');
+INSERT INTO `tcc`.`usuario_avaliacao` (`id_usuario`, `id_video`, `id_avaliacao`, `data_inicio`, `tempo_assistido`) VALUES ('24', '11', '20', '2025-03-12 11:21:30', '00:15:42');
+INSERT INTO `tcc`.`usuario_avaliacao` (`id_usuario`, `id_video`, `id_avaliacao`, `data_inicio`, `tempo_assistido`) VALUES ('20', '14', '21', '2025-03-12 11:30:31', '00:23:52');
+INSERT INTO `tcc`.`usuario_avaliacao` (`id_usuario`, `id_video`, `id_avaliacao`, `data_inicio`, `tempo_assistido`) VALUES ('13', '14', '22', '2025-03-12 11:32:51', '00:23:52');
+INSERT INTO `tcc`.`usuario_avaliacao` (`id_usuario`, `id_video`, `id_avaliacao`, `data_inicio`, `tempo_assistido`) VALUES ('4', '15', '23', '2025-03-12 12:16:25', '00:28:31');
 
 playlist video
 INSERT INTO `tcc`.`playlist_video` (`id_playlist`, `id_video`, `data_adicao`, `posicao_video`) VALUES (5, 1, '2025-03-11', 1);
