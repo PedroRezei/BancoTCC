@@ -231,6 +231,18 @@ INSERT INTO `usuario` VALUES (21,'Natan','natan7831@gmail.com','ticriticam59482'
 INSERT INTO `usuario` VALUES (22,'Gustavo','gustavokido@gmail.com','muitacriatividadeveyr','mysql, oracle');
 INSERT INTO `usuario` VALUES (23,'Paola','paola.tidinha@gmail.com','batatinhabemquentinha','kotlin, javascript');
 INSERT INTO `usuario` VALUES (24,'Hemilio','hemili2047@gmail.com','espaguetegostosinho','python, portugol');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Murilo ', 'murilosantanna@gmail.com', 'acabecomela', 'python, laravel');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Adriana ', 'adrianaImai23@gmail.com', 'amaiordodbd', 'oracle, postgresql');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Diogo', 'diogo9865@gmail.com', 'esssasenhagenerica', 'java, javascript');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Ulisses', 'ulio.isses@gmail.com', 'ulisses6683251', 'php, python, C++');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Calebe', 'calebe.lamaro@gmail.com', '5421235886554', 'html, react, node.js');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Taynara', 'taynara2007@gmail.com', 'taynara584284957', 'ruby, scala');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Omar', 'omar.camargo@gmail.com', 'senhasomar', 'kotlin, typescript');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Bianca', 'bianca.roma@gmail.com', 'essasenha53315', 'mysql, postgresql');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Matheus', 'matheuskastro02gmail.com', 'muitaspessoasexistem', 'java, php');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Oliver', 'Olivergringo@gmail.com', 'oimate39475284', 'flutter, react');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Danilo', 'danilo653@gmail.com', 'dalinosenhasahaha', 'python, C++');
+UPDATE `tcc`.`usuario` SET `interesses` = 'C++, ruby' WHERE (`id_usuario` = '6');
 
 
 USUARIO_AVALIACAO
