@@ -107,6 +107,7 @@ INSERT INTO `criador` VALUES (27,'Lívia','livia.morais@gmail.com','liviamorais@
 INSERT INTO `criador` VALUES (28,'Gustavo','gustavo.alves@gmail.com','gustavo123','432.109.876-33','56.789.012-3','ciencia de dados');
 INSERT INTO `criador` VALUES (29,'Bruna','bruna.santos@gmail.com','senha123bruna','321.654.987-65','67.890.123-4','desenvolvimento de software');
 INSERT INTO `criador` VALUES (30,'Eduardo','eduardo.silveira@gmail.com','senhaeduardo2025','234.567.890-45','78.901.234-5','analise e desenvolvimento de sistemas');
+INSERT INTO `tcc`.`criador` (`nome`, `email`, `senha`, `cpf`, `rg`, `formacao`) VALUES ('Reinaldo', 'Reinaldo.professor@gmail.com', 'reinaldotiinforma', '745.145.567-65', '51.653.895-1', 'administracao de banco de dados');
 
 
 PLAYLIST
@@ -243,6 +244,14 @@ INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Ma
 INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Oliver', 'Olivergringo@gmail.com', 'oimate39475284', 'flutter, react');
 INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Danilo', 'danilo653@gmail.com', 'dalinosenhasahaha', 'python, C++');
 UPDATE `tcc`.`usuario` SET `interesses` = 'C++, ruby' WHERE (`id_usuario` = '6');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Eduardo ', 'edu85628@gmail.com', 'eduedududu', 'laravel, javascript');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Ronaldo', 'ronnievaldo@gmail.com', '6452856ronaldo', 'mysql, oracle');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Rayane', 'rayane.luara@gmail.com', 'sabrinacarpenter', 'python, php');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Gabriella', 'gabi3103@gmail.com', 'shadowofaman', 'javascript, mongodb');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Fabrício', 'fabs5628@gmail.com', 'fabricioanjos', 'ruby, C++');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Manuella', 'amanu.bts@gmail.com', 'jiminjungkook', 'react, css, java');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Samuel', 'samuelalves@gmail.com', 'samucabiruta', 'kotlin, scala');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Thales', 'thales_3855@gmail.com', 'tha93754638', 'typescript, java');
 
 
 USUARIO_AVALIACAO
