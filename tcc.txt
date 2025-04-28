@@ -293,6 +293,52 @@ INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Th
 INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Camila', 'cami.suporte@gmail.com', 'camilasuporte', 'mysql, oracle');
 INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Eduardo', 'edu.inteligencia@gmail.com', 'eduardoia', 'react, css');
 
+UPDATE USUARIO
+
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Escola Jardim das Flores' WHERE (`id_usuario` = '1');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Rex' WHERE (`id_usuario` = '2');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'São Paulo' WHERE (`id_usuario` = '3');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Rua das Palmeiras' WHERE (`id_usuario` = '4');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Lasanha' WHERE (`id_usuario` = '5');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Vingadores' WHERE (`id_usuario` = '6');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Colégio Estrela do Norte' WHERE (`id_usuario` = '7');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Thor' WHERE (`id_usuario` = '8');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Rio de Janeiro' WHERE (`id_usuario` = '9');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Avenida Brasil' WHERE (`id_usuario` = '10');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Pizza' WHERE (`id_usuario` = '11');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Harry Potter' WHERE (`id_usuario` = '12');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Escola Vida Nova' WHERE (`id_usuario` = '13');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Bob' WHERE (`id_usuario` = '14');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Belo Horizonte' WHERE (`id_usuario` = '15');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Rua das Laranjeiras' WHERE (`id_usuario` = '16');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Feijoada' WHERE (`id_usuario` = '17');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Jurassic Park' WHERE (`id_usuario` = '18');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Escola Nova Geração' WHERE (`id_usuario` = '19');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Nina' WHERE (`id_usuario` = '20');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Salvador' WHERE (`id_usuario` = '21');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Rua das Flores' WHERE (`id_usuario` = '22');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Sushi' WHERE (`id_usuario` = '23');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Star Wars' WHERE (`id_usuario` = '24');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Escola Santo Antônio' WHERE (`id_usuario` = '25');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Mel' WHERE (`id_usuario` = '26');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Curitiba' WHERE (`id_usuario` = '27');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Rua do Comércio' WHERE (`id_usuario` = '28');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Hambúrguer' WHERE (`id_usuario` = '29');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Titanic' WHERE (`id_usuario` = '30');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Escola Horizonte' WHERE (`id_usuario` = '31');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Luna' WHERE (`id_usuario` = '32');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Manaus' WHERE (`id_usuario` = '33');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Rua da Paz' WHERE (`id_usuario` = '34');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Strogonoff' WHERE (`id_usuario` = '35');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Matrix' WHERE (`id_usuario` = '36');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Colégio São Luiz' WHERE (`id_usuario` = '37');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Simba' WHERE (`id_usuario` = '38');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Recife' WHERE (`id_usuario` = '39');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Rua Nova Esperança' WHERE (`id_usuario` = '40');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Nhoque' WHERE (`id_usuario` = '41');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'O Senhor dos Anéis' WHERE (`id_usuario` = '42');
+UPDATE `tcc`.`usuario` SET `pergunta_resposta` = 'Escola Modelo' WHERE (`id_usuario` = '43');
+
 
 USUARIO_AVALIACAO
 
