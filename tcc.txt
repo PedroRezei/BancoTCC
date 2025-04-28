@@ -449,27 +449,4 @@ INSERT INTO `tcc`.`video` (`id_criador`, `titulo`, `descricao`, `url`, `data_pub
 INSERT INTO `tcc`.`video` (`id_criador`, `titulo`, `descricao`, `url`, `data_publicacao`, `categoria`, `palavra_chave`) VALUES (19, 'BRANCHING E MERGING COM GIT', 'Neste vídeo, demonstro como utilizar branches e realizar merges de forma eficiente com o Git.', 'https://www.youtube.com/watch?v=t_UND1if4eI', '2025-04-28 19:05:00', 'programação', 'git branching merging');
 INSERT INTO `tcc`.`video` (`id_criador`, `titulo`, `descricao`, `url`, `data_publicacao`, `categoria`, `palavra_chave`) VALUES (20, 'JOINTS EM SQL: UNINDO TABELAS', 'Neste vídeo, ensino como utilizar diferentes tipos de JOIN para combinar dados de múltiplas tabelas em SQL.', 'https://www.youtube.com/watch?v=4AiIY15Yrt4', '2025-04-28 19:20:00', 'banco de dados', 'sql joins');
 
-PASSWORD_RESET
-
-INSERT INTO tokens (id, usuario_id, token, data_expiracao, nova_senha) VALUES
-(1, 1, 'abc123tokenJuliana', '2025-04-22 12:00:00', 'maeamo2006'),
-(2, 2, 'def456tokenGabriel', '2025-04-22 12:00:00', 'aniversario07'),
-(3, 3, 'ghi789tokenIvan', '2025-04-22 12:00:00', NULL),
-(4, 4, 'jkl101tokenHeloisa', '2025-04-22 12:00:00', NULL),
-(5, 5, 'mno112tokenMaria', '2025-04-22 12:00:00', '22042025'),
-(6, 6, 'pqr113tokenLucas', '2025-04-22 12:00:00', '90807060'),
-(7, 7, 'stu123tokenBruno', '2025-04-22 12:00:00', NULL),
-(8, 8, 'vwx134tokenRodrigo', '2025-04-22 12:00:00', NULL),
-(9, 9, 'yzx145tokenThiago', '2025-04-22 12:00:00', 'tigas145gg'),
-(10, 10, 'abc159tokenCamila', '2025-04-22 12:00:00', NULL),
-(11, 11, 'def170tokenJonas', '2025-04-22 12:00:00', 'joninhasdev'),
-(12, 12, 'ghi182tokenCarla', '2025-04-22 12:00:00', 'carlabale@'),
-(13, 13, 'jkl193tokenBarbara', '2025-04-22 12:00:00', NULL),
-(14, 14, 'mno204tokenBruno', '2025-04-22 12:00:00', NULL),
-(15, 15, 'pqr215tokenRenato', '2025-04-22 12:00:00', 'Renataotdi32'),
-(16, 16, 'stu226tokenDonatella', '2025-04-22 12:00:00', NULL),
-(17, 17, 'vwx237tokenEvandro', '2025-04-22 12:00:00', NULL),
-(18, 18, 'yzx248tokenFernando', '2025-04-22 12:00:00', 'gamesbesti'),
-(19, 19, 'abc259tokenRafael', '2025-04-22 12:00:00', NULL),
-(20, 20, 'def260tokenThalita', '2025-04-22 12:00:00', 'thalitaa250208');
 
