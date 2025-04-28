@@ -272,26 +272,26 @@ INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Fa
 INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Manuella', 'amanu.bts@gmail.com', 'jiminjungkook', 'react, css, java');
 INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Samuel', 'samuelalves@gmail.com', 'samucabiruta', 'kotlin, scala');
 INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Thales', 'thales_3855@gmail.com', 'tha93754638', 'typescript, java');
-INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Alessandra', 'ale.sandra@gmail.com', 'alessandra123', 'java, javascript');
-INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Ricardo', 'ricardo.dev@gmail.com', 'ricardoprograma', 'python, php');
-INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Patrícia', 'pati.info@gmail.com', 'patriciaweb', 'html, css, javascript');
-INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Marcelo', 'marcelo.ti@gmail.com', 'marcelotecno', 'C++, python');
-INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Fernanda', 'fernanda.dados@gmail.com', 'fernandadb', 'mysql, oracle');
-INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Leonardo', 'leo.mobile@gmail.com', 'leonardomobile', 'react, java');
-INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Amanda', 'amanda.cloud@gmail.com', 'amandacloud', 'python, php');
-INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Gustavo', 'guga.ia@gmail.com', 'gustavoai', 'python, java');
-INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Isabela', 'isa.frontend@gmail.com', 'isabelafront', 'react, javascript');
-INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Vinícius', 'vini.seguranca@gmail.com', 'viniciussecurity', 'java, php');
-INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Letícia', 'le.analista@gmail.com', 'leticiaanalise', 'mysql, mongodb');
-INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Sérgio', 'sergio.redes@gmail.com', 'sergiorede', 'C++, ruby');
-INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Natália', 'nati.uxui@gmail.com', 'nataliaux', 'html, css');
-INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('André', 'andre.devops@gmail.com', 'andrevops', 'java, javascript');
-INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Julie', 'juli.testes@gmail.com', 'julitestes', 'python, portugol');
-INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Felipe', 'felipe.games@gmail.com', 'felipejogos', 'C++, php');
-INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Mariana', 'mari.mobiledev@gmail.com', 'marianamobile', 'kotlin, java');
-INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Thiago', 'thiago.iot@gmail.com', 'thiagoiot', 'typescript, javascript');
-INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Camila', 'cami.suporte@gmail.com', 'camilasuporte', 'mysql, oracle');
-INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`) VALUES ('Eduardo', 'edu.inteligencia@gmail.com', 'eduardoia', 'react, css');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`, `pergunta_resposta`) VALUES ('Alessandra', 'ale.sandra@gmail.com', 'alessandra123', 'java, javascript','Doctor Who');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`, `pergunta_resposta`) VALUES ('Ricardo', 'ricardo.dev@gmail.com', 'ricardoprograma', 'python, php','Campinas');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`, `pergunta_resposta`) VALUES ('Patrícia', 'pati.info@gmail.com', 'patriciaweb', 'html, css, javascript','Pipoca');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`, `pergunta_resposta`) VALUES ('Marcelo', 'marcelo.ti@gmail.com', 'marcelotecno', 'C++, python','Colégio Taquaral');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`, `pergunta_resposta`) VALUES ('Fernanda', 'fernanda.dados@gmail.com', 'fernandadb', 'mysql, oracle','Salada');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`, `pergunta_resposta`) VALUES ('Leonardo', 'leo.mobile@gmail.com', 'leonardomobile', 'react, java','Jogos Vorazes');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`, `pergunta_resposta`) VALUES ('Amanda', 'amanda.cloud@gmail.com', 'amandacloud', 'python, php','Elias Fausto');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`, `pergunta_resposta`) VALUES ('Gustavo', 'guga.ia@gmail.com', 'gustavoai', 'python, java','Sorvete');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`, `pergunta_resposta`) VALUES ('Isabela', 'isa.frontend@gmail.com', 'isabelafront', 'react, javascript','Bridgerton');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`, `pergunta_resposta`) VALUES ('Vinícius', 'vini.seguranca@gmail.com', 'viniciussecurity', 'java, php','Escola Araci Medeiros');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`, `pergunta_resposta`) VALUES ('Letícia', 'le.analista@gmail.com', 'leticiaanalise', 'mysql, mongodb','Avenida Salvador Cruzeiro');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`, `pergunta_resposta`) VALUES ('Sérgio', 'sergio.redes@gmail.com', 'sergiorede', 'C++, ruby','Brigadeiro');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`, `pergunta_resposta`) VALUES ('Natália', 'nati.uxui@gmail.com', 'nataliaux', 'html, css','Pânico');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`, `pergunta_resposta`) VALUES ('André', 'andre.devops@gmail.com', 'andrevops', 'java, javascript','Salto');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`, `pergunta_resposta`) VALUES ('Julie', 'juli.testes@gmail.com', 'julitestes', 'python, portugol','Hôrtolandia');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`, `pergunta_resposta`) VALUES ('Felipe', 'felipe.games@gmail.com', 'felipejogos', 'C++, php','LOL');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`, `pergunta_resposta`) VALUES ('Mariana', 'mari.mobiledev@gmail.com', 'marianamobile', 'kotlin, java','Escona Nação Unida');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`, `pergunta_resposta`) VALUES ('Thiago', 'thiago.iot@gmail.com', 'thiagoiot', 'typescript, javascript','Macarronada');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`, `pergunta_resposta`) VALUES ('Camila', 'cami.suporte@gmail.com', 'camilasuporte', 'mysql, oracle','Rua Agatha Ramos');
+INSERT INTO `tcc`.`usuario` (`nome`, `email`, `senha`, `interesses`, `pergunta_resposta`) VALUES ('Eduardo', 'edu.inteligencia@gmail.com', 'eduardoia', 'react, css','Jujuca');
 
 UPDATE USUARIO
 
